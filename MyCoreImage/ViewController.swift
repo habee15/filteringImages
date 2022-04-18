@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     @IBAction func DiscBlur(_ sender: Any) {
        
-        let inputImage = UIImage(named: "image")!
+        let inputImage = UIImage(named: "image1")!
         
        if let currentFilter = CIFilter(name: "CIDiscBlur")
         {
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 
     @IBAction func sepia(_ sender: Any) {
        
-        let inputImage = UIImage(named: "image")!
+        let inputImage = UIImage(named: "image1")!
         
        if let currentFilter = CIFilter(name: "CISepiaTone")
         {
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
     
     @IBAction func noir(_ sender: Any) {
       
-        let inputImage = UIImage(named: "image")!
+        let inputImage = UIImage(named: "image1")!
         
        if let currentFilter = CIFilter(name: "CIFalseColor")
         {
@@ -83,7 +83,7 @@ class ViewController: UIViewController {
     
     @IBAction func photoeffect(_ sender: Any) {
         
-        let inputImage = UIImage(named: "image")!
+        let inputImage = UIImage(named: "image1")!
         
        if let currentFilter = CIFilter(name: "CIPhotoEffectProcess")
         {
@@ -104,7 +104,7 @@ class ViewController: UIViewController {
     
     @IBAction func Clear(_ sender: Any) {
         
-        let inputImage = UIImage(named: "image")!
+        let inputImage = UIImage(named: "image1")!
         
         imageview.image = inputImage
         
